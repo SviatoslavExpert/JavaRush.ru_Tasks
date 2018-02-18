@@ -10,8 +10,8 @@ package level_03;
 
 public class task0303 {
     public static void main(String[] args) {
-        System.out.println(convertEurToUsd(1, 1.3));
-        System.out.println(convertEurToUsd(3, 1.5));
+        System.out.println(convertEurToUsd(1, 0.86));
+        System.out.println(convertEurToUsd(3, 0.86));
     }
     public static double convertEurToUsd(int eur, double course){
         return eur * course;
