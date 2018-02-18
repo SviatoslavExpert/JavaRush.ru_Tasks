@@ -9,7 +9,7 @@
 package level_02;
 
 public class task0211 {
-    public static void main (String []args) throws Exception {
+    public static void main (String []args) {
         int x = 1;
         int y = 0;
 
