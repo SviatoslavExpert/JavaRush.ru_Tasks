@@ -12,11 +12,9 @@ package level_01;
 
 public class task0128 {
     public static void main(String[] args) {
-        //напишите тут ваш код
         sum(2,2);
     }
     public static void sum(int a, int b) {
-        int c = a + b;
-        System.out.print(c);
+        System.out.print(a + b);
     }
 }
