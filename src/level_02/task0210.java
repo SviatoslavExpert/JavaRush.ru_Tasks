@@ -6,7 +6,7 @@
 package level_02;
 
 public class task0210 {
-    public static void main (String []args) {
+    public static void main (String []args) throws Exception {
         System.out.println("Будешь плохо кодить, придет Java и съест твою память.");
     }
 }
