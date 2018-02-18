@@ -14,6 +14,6 @@ public class task0219 {
     public static void main(String[] args)
     {
         print3("window");
-        print3(" file");
+        print3("file");
     }
 }
