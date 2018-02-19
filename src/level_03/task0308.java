@@ -8,10 +8,10 @@ package level_03;
 
 public class task0308 {
     public static void main(String[] args) {
-        int count = 10, sum = 1;
-        for (int i = 1; i <= count; i ++){
-            sum = sum * i;
+        int count = 11, result = 1;
+        for (int i = 1; i < count; i++){
+            result *= i;
         }
-        System.out.println(sum);
+        System.out.println(result);
     }
 }
