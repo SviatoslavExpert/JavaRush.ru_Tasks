@@ -13,8 +13,8 @@ public class task0319 {
     public static void main(String[] args) throws Exception {
         BufferedReader r = new BufferedReader (new InputStreamReader(System.in));
         String name = r.readLine();
-        int num1 = Integer.parseInt(r.readLine());
-        int num2 = Integer.parseInt(r.readLine());
-        System.out.println(name + " получает " + num1 + " через " + num2 + " лет." );
+        int salary = Integer.parseInt(r.readLine());
+        int years = Integer.parseInt(r.readLine());
+        System.out.println(name + " получает " + salary + " через " + years + " лет." );
     }
 }
