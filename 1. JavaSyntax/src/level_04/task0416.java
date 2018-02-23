@@ -1,6 +1,5 @@
 /*
 Переходим дорогу вслепую
-
 Работа светофора для пешеходов запрограммирована следующим образом: в начале каждого часа в течение трех минут горит зелёный сигнал,
 затем в течение одной минуты — желтый, а потом в течение одной минуты — красный, затем опять зелёный горит три минуты и т. д.
 Ввести с клавиатуры вещественное число t, означающее время в минутах, прошедшее с начала очередного часа.
@@ -18,6 +17,19 @@
  */
 
 package level_04;
+import java.io.*;
 
 public class task0416 {
+    public static void main (String []args) throws Exception {
+        BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+        double t = Double.parseDouble(r.readLine())%5;
+
+        if (t < 3) {
+            System.out.println("зеленый" + t);
+        } else if (t < 4) {
+            System.out.println("желтый" + t);
+        } else {
+            System.out.println("красный" + t);
+        }
+    }
 }
