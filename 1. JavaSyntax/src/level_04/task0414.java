@@ -13,6 +13,18 @@
  */
 
 package level_04;
+import java.io.*;
 
 public class task0414 {
+
+    public static void main(String[] args) throws Exception {
+        BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+        int year = Integer.parseInt(r.readLine());
+
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println("количество дней в году: " + 366);
+        } else {
+            System.out.println("количество дней в году: " + 365);
+        }
+    }
 }
