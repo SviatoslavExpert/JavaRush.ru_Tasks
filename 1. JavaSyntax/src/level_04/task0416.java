@@ -25,11 +25,11 @@ public class task0416 {
         double t = Double.parseDouble(r.readLine())%5;
 
         if (t < 3) {
-            System.out.println("зеленый" + t);
+            System.out.println("зеленый");
         } else if (t < 4) {
-            System.out.println("желтый" + t);
+            System.out.println("желтый");
         } else {
-            System.out.println("красный" + t);
+            System.out.println("красный");
         }
     }
 }
