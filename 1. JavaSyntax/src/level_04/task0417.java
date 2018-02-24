@@ -12,9 +12,15 @@ package level_04;
 import java.io.*;
 
 public class task0417 {
-    public static void main (String []args){
+    public static void main (String []args) throws Exception{
         BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+        int a = Integer.parseInt(r.readLine());
+        int b = Integer.parseInt(r.readLine());
+        int c = Integer.parseInt(r.readLine());
 
-
+        if(a == b && b == c ) System.out.println(a + " " + b + " " + c);
+        else if(a == b) System.out.println(a + " " + b);
+        else if(a == c) System.out.println(a + " " + c);
+        else if(b == c) System.out.println(b + " " + c);
     }
 }
