@@ -18,8 +18,8 @@ public class task0424 {
         int b = Integer.parseInt(r.readLine());
         int c = Integer.parseInt(r.readLine());
 
-        if(a != b && a != c) System.out.println(1);
-        else if(b != a && b != c) System.out.println(2);
-        else if(c != a && c != b) System.out.println(3);
+        if(b == c) System.out.println(1);
+        else if(a == c) System.out.println(2);
+        else if(a == b) System.out.println(3);
     }
 }
