@@ -8,12 +8,13 @@
 package level_05;
 
 public class task0506Person {
-    String name;
-    int age;
-    String address;
-    char sex;
+    public String name;
+    public int age;
+    public String address;
+    public char sex;
 
     public static void main (String []args) {
-        
     }
+
+
 }
