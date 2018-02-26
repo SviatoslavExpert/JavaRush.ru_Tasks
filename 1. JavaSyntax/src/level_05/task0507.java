@@ -9,7 +9,9 @@
 2.5
  */
 package level_05;
-import java.io.*;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 public class task0507 {
     public static void main (String []args) throws Exception {
