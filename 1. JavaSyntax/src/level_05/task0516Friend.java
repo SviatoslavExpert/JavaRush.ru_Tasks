@@ -13,16 +13,16 @@ public class task0516Friend {
     private int age;
     private char sex;
 
-    public void initialize(String name){
+    public task0516Friend(String name){
         this.name = name;
     }
 
-    public void initialize(String name, int age){
+    public task0516Friend(String name, int age){
         this.name = name;
         this.age = age;
     }
 
-    public void initialize(String name, int age, char sex){
+    public task0516Friend(String name, int age, char sex){
         this.name = name;
         this.age = age;
         this.sex = sex;
