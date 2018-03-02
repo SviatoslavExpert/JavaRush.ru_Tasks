@@ -12,4 +12,12 @@ KissMyShinyMetalAss
 package level_06;
 
 public class task0618 {
+
+    public static class KissMyShinyMetalAss {
+    }
+
+    public static void main(String[] args) {
+        KissMyShinyMetalAss ass = new KissMyShinyMetalAss();
+        System.out.println(ass);
+    }
 }
